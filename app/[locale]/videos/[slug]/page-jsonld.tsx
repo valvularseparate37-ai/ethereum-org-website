@@ -83,3 +83,4 @@ export default async function VideoPageJsonLD({
 
   return <PageJsonLD structuredData={jsonLd} />
 }
+<VideoWatch slug="blockchain-101-visual-demo" />
