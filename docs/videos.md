@@ -189,3 +189,21 @@ See the public contributing guide at [/contributing/adding-videos/](/contributin
 1. Create `public/content/videos/{slug}/index.md` with frontmatter + transcript
 2. Add i18n keys to `src/intl/en/page-videos.json` if using new category tags
 3. Run `pnpm build` to verify the page generates correctly
+4. 
+---
+title: "Video Title"
+description: "A brief summary of the video content."
+lang: en
+youtubeId: "dQw4w9WgXcQ"        # YouTube video ID
+uploadDate: 2025-01-15           # YYYY-MM-DD format
+duration: "1:08:42"              # H:MM:SS or M:SS format
+educationLevel: intermediate     # beginner | intermediate | advanced
+topic:                           # Array of tags (used for gallery filtering)
+  - "scaling"
+  - "layer-2"
+format: interview                # presentation | explainer | interview | tutorial | panel
+author: Channel Name             # Creator/channel attribution
+breadcrumb: "Short Label"        # Optional — custom breadcrumb label
+customThumbnailUrl: "https://..."  # Optional — falls back to YouTube default
+---
+
