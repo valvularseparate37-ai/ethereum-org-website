@@ -162,3 +162,10 @@ _Typically used for decentralized development and governance of protocols and [d
 <Divider />
 
 <QuizWidget quizKey="daos" />
+public/content/videos/
+  ├─ ai-agents-interview-luna/
+  │   └─ index.md          ← frontmatter + transcript body
+  ├─ blobspace-101-dencun/
+  │   └─ index.md
+  └─ blockchain-101-visual-demo/
+      └─ index.md
